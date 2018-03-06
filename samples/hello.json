@@ -1,0 +1,23 @@
+{
+  "name": "Homepage Customization",
+  "title": "Introductory Customizer App",
+  "description": "Inserts text into IBM Connections Homepage VODO",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+        "include-files": [
+          "hello.user.js"
+        ],
+	      "include-repo":{
+	       "name": "vodo22-customizer"
+	     }
+      },
+      "name": "Hello Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage"
+    }
+  ]
+}
