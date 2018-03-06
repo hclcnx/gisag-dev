@@ -9,7 +9,7 @@
     {
       "payload": {
         "include-files": [
-          "hello.user.js"
+          "samples/hello.user.js"
         ],
 	      "include-repo":{
 	       "name": "vodo22-customizer"
