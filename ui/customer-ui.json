@@ -1,0 +1,23 @@
+{
+  "name": "Homepage Customization",
+  "title": "Customer Layout",
+  "description": "Overall customer specific colors and layouts",
+  "services": [
+    "Customizer"
+  ],
+  "extensions": [
+    {
+      "payload": {
+        "include-files": [
+          "ui/customer-ui.js"
+        ],
+	      "include-repo":{
+	       "name": "gisag-dev"
+	     }
+      },
+      "name": "CSS Customizations",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage"
+    }
+  ]
+}
