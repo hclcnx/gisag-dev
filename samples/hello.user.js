@@ -1,19 +1,9 @@
 // ==UserScript==
-// @copyright    Copyright IBM Corp. 2017
 //
-// @name         helloWorld
+// @name         gentle hello World
 // @version      0.1
 // @description  *** PROTOTYPE CODE *** demonstrates simple hello world script to customize the Home Page
-//
-// @namespace  http://ibm.com
-//
-// @author       Hello World (aka You!)
-//
-// @include      *://apps.collabservintegration.com/homepage/*
-//
-// @exclude
-//
-// @run-at       document-end
+// @author       vodo22
 //
 // ==/UserScript==
 
@@ -45,7 +35,7 @@ if(typeof(dojo) != "undefined") {
             waitFor( function(){
 			// wait until the "loading..." node has been hidden
 			// indicating that we have loaded content.
-   			dojo.query("span.shareSome-title")[0].textContent="Hello World!!! ";
+   			dojo.query("span.shareSome-title")[0].textContent="Please ";
        	          },
 		  ".lotusStreamTopLoading div.loaderMain.lotusHidden");
       } catch(e) {
