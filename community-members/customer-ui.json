@@ -1,7 +1,7 @@
 {
-  "name": "Homepage Customization",
+  "name": "Community Member Buttons Customization",
   "title": "Customer Layout",
-  "description": "Overall customer specific colors and layouts",
+  "description": "Remove export import buttons",
   "services": [
     "Customizer"
   ],
@@ -9,15 +9,15 @@
     {
       "payload": {
         "include-files": [
-          "ui/customer-ui.js"
+          "community-members/customer-ui.js"
         ],
 	      "include-repo":{
 	       "name": "gisag-dev"
 	     }
       },
-      "name": "CSS Customizations",
+      "name": "community-members buttons exclude",
       "type": "com.ibm.customizer.ui",
-      "path": "homepage"
+      "path": "communities"
     }
   ]
 }
