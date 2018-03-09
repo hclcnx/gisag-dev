@@ -1,7 +1,7 @@
 {
   "name": "Homepage Customization",
   "title": "Introductory Customizer App",
-  "description": "Inserts text into IBM Connections Homepage VODO",
+  "description": "Inserts text into IBM Connections Homepage",
   "services": [
     "Customizer"
   ],
@@ -12,7 +12,7 @@
           "samples/hello.user.js"
         ],
 	      "include-repo":{
-	       "name": "vodo22-customizer"
+	       "name": "gisag-dev"
 	     }
       },
       "name": "Hello Extension",
