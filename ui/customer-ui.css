@@ -1,5 +1,21 @@
 
-.lotusui30 div.lotusBanner .lotusRightCorner {
-    background: red;   
+#nav_bar_include {
+    background-color: rgba(227,6,19,0.95);   
+	font-size: 125%;
 }
 
+.lotusui div.ics-scbanner {
+    background-color: rgba(227,6,19,0.95);       
+}
+
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging.lotusPagingTop {
+    background-color: rgba(227,6,19,0.95);   
+
+}
+
+
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+	background-color: rgba(227,6,19,0.95);   
+	outline: rgba(227,6,19,0.95) solid 1px;
+}

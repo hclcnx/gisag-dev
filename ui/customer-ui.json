@@ -1,6 +1,6 @@
 {
   "name": "Homepage Customization",
-  "title": "Customer Layout",
+  "title": "Global CSS Layout",
   "description": "Overall customer specific colors and layouts",
   "services": [
     "Customizer"
@@ -15,7 +15,7 @@
 	       "name": "gisag-dev"
 	     }
       },
-      "name": "CSS Customizations",
+      "name": "gloabl CSS customizations",
       "type": "com.ibm.customizer.ui",
       "path": "homepage"
     }
