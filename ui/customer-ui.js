@@ -9,9 +9,11 @@
 
 if (typeof (dojo) != "undefined") {
     dojo.place(
-        //        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/muse-static/samples/profiles/profilesCustomization.css\"></link>",
-        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/ui/customer-ui.css\"></link>",
+        // https://apps.na.collabserv.com/files/customizer/ui/customer-ui.css?repoName=gisag-dev
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/ui/customer-ui.css?repoName=gisag-dev\"></link>",
         dojo.doc.head,
         "last"
 );
 }
+
+

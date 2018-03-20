@@ -1,6 +1,6 @@
 {
   "name": "Community Member Buttons Customization",
-  "title": "Customer Layout",
+  "title": "Community Member Buttons",
   "description": "Remove export import buttons",
   "services": [
     "Customizer"
@@ -15,7 +15,7 @@
 	       "name": "gisag-dev"
 	     }
       },
-      "name": "community-members buttons exclude",
+      "name": "community members buttons exclude",
       "type": "com.ibm.customizer.ui",
       "path": "communities"
     }
