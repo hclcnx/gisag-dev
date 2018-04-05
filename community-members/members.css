@@ -4,22 +4,10 @@
 @author       vodo22
 */
 
-#nav_bar_include {
-    background-color: #007d40;   
-	font-size: 110%;
-}
+/* hide additional member buttons, if page is reloaded */
 
-.lotusui div.ics-scbanner {
-    background-color: #007d40;       
-}
-
-
-.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging.lotusPagingTop {
-    background-color: #007d40;   
-}
-
-
-.search-history-view-ui .lotusui30 .icSearchPaneButton {
-    background-color: #007d40;   
-    outline: #007d40 solid 1px;
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(1),
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(3),
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(4) {
+        display:none;
 }
