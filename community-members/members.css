@@ -1,0 +1,13 @@
+/* 
+@description  UI customizations via css files 
+@version      0.1
+@author       vodo22
+*/
+
+/* hide additional member buttons, if page is reloaded */
+
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(1),
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(3),
+#memberAddButton.lotusBtnContainer .lotusBtn.lotusBtnAction.lotusLeft:nth-child(4) {
+        display:none;
+}

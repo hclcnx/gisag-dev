@@ -1,0 +1,41 @@
+/* 
+@description  UI customizations via css files 
+@version      0.1
+@author       vodo22
+*/
+
+
+#nav_bar_include {
+    background-color: #007d40;   
+	font-size: 110%;
+}
+
+.lotusui div.ics-scbanner {
+    background-color: #007d40;       
+}
+
+
+/* Activity Stream Bar */
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging.lotusPagingTop {
+    background-color: #007d40;   
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft, .lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+    background: #12512e;
+}
+
+/* search */
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+    background-color: #007d40;   
+    outline: #007d40 solid 1px;
+}
+
+
+
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:active, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:focus, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li a:hover, 
+.lotusui30 .lotusBanner ul.lotusInlinelist li.lotusHover a {
+   background: #12512e;
+}
+
