@@ -9,14 +9,14 @@
     {
       "payload": {
         "include-files": [
-          "ui/customer-ui.css"
+          "ui3/customer-ui3.css"
         ],
 	      "include-repo":{
 	       "name": "gisag-dev"
 	     }
       },
       "name": "gloabl CSS customizations",
-      "type": "com.ibm.customizer.ui",
+      "type": "com.ibm.customizer.ui2",
       "path": "homepage"
     }
   ]

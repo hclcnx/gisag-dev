@@ -1,8 +1,9 @@
 // ==UserScript==
 //
 // @name         remove member import/export buttons
-// @version      0.1
+// @version      0.2
 // @description  *** PROTOTYPE CODE *** 
+// 
 // @author       vodo22
 //
 // ==/UserScript==
@@ -41,8 +42,8 @@ if(typeof(dojo) != "undefined") {
                     dojo.query(".lotusBtn", "memberAddButton").forEach(function(node) {
                         i=i+1;
                         console.log(i);
-                        if(i>2) {
-                          dojo.place("<span></span>", node, "replace");
+                        if(i!=2) {
+                          dojo.place("<span class='lotusBtn lotusBtnAction lotusLeft'></span>", node, "replace");
                         }
                     });
 
@@ -54,3 +55,4 @@ if(typeof(dojo) != "undefined") {
   }
 });
 }
+
